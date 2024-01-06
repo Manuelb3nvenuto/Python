@@ -1,3 +1,4 @@
+#all this were copy and paste because i made them time ago, that's why there are not that many commits
 print("Welcome to the tip calculator")
 bill = float(input("What was the total bill? $"))
 tip = int(input("What tip of the bill would you like to give? 10, 12 ,15? "))

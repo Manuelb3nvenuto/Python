@@ -1,3 +1,5 @@
+#all this were copy and paste because i made them time ago, that's why there are not that many commits
+
 height = float(input("enter your height in m: "))
 weight = float(input("enter your weight in kg: "))
 
