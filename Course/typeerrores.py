@@ -11,3 +11,9 @@ print(type(True))
 print ("123")
 
 print (type(int("123")))
+
+#type conversions make it right when theres a typ e error
+name_of_the_user = input("Enter your name:")
+lenght_of_name = len(name_of_the_user)
+print("Number of letters in your name: " + str(lenght_of_name))
+
