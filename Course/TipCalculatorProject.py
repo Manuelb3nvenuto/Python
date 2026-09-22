@@ -38,3 +38,37 @@ calculation_bill_tip_person = (calulation_tip_percentage  / split_total)
 tip_per_person_singular = (bill_and_cal_tip_percentage / split_total)
 
 print(f"The total for each person gonna be {tip_per_person_singular} per person with tip added, and if you prefer what was the tip given by each is { calculation_bill_tip_person} , thanks for been with us in this beautiful evening")
+
+#round funtion
+bmi = 86 / 1.65 ** 2
+
+print(bmi)
+
+print(int(bmi)) #here we can have the answer but wiht floats
+
+print(round(bmi)) #with this function we round the number without putting a limit of the number after the point
+
+print(round(bmi, 2)) #here we can delimited the amount of numbers of the result.
+
+
+#another handy operator can be the assignment operator, this allow to accumulate the results of the calculations
+
+#score = 0
+#user scores a point
+
+#score += 1
+
+#print(score)
+
+
+#f-strings can be user to concatenate diferent data types
+
+#print(f"Your score is " + str(score))
+
+#another example can be the next one
+
+score = 0 
+
+height = 1.80
+
+is_winning = True
