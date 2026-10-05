@@ -1,13 +1,7 @@
 print("Welcome to Python Milkshakes Deliveries!")
 
 size = input("What size do you want the milshake to be S, M, L: ")
-
-foam = input("Do you want foam in your milshake? Y or N: ")
-
-extra_sparkles = input("Would you want extra sparkles Y or N: ")
-
 bill = 0
-
 # todo: work out how much they need to pay based on their size choice
 if size == "S":
     bill = 15
@@ -17,10 +11,14 @@ elif size == "M":
     bill = 20
     print("The size it's gonna be medium for your milkshake")
 
-else:
+elif size == "L":
     bill = 25 
     print("The size it's gonna be large for your milkshake")
 
+else:
+    print("You type a wrong character")
+    
+foam = input("Do you want foam in your milshake? Y or N: ")
 
 # todo: work out how much to add to their bill based on their foam choice
 if foam == "Y":
@@ -31,6 +29,7 @@ else:
     bill += 0
     print("It won't be added nothing to your beverage")
 
+extra_sparkles = input("Would you want extra sparkles Y or N: ")
 # todo: work out their final amount wether if they want extra sparkles 
 if extra_sparkles == "Y":
     bill += 1
