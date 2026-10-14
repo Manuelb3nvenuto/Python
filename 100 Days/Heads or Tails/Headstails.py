@@ -1,0 +1,2 @@
+Heads = "Heads"
+Tails = "Tails"
